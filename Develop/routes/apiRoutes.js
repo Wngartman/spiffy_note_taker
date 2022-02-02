@@ -56,9 +56,9 @@ router.route("/notes")
     })
 
 router.delete('/notes/:id', (req, res) => {
-    id = req.params.id;
+    const id = req.params.id;
     // Respond to the DELETE request
-    res.json(`Item ${noteId} has been deleted 🗑️`);
+    res.json(`Item ${noteId} has been deleted `);
 });
 
 module.exports = router;
