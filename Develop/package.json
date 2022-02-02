@@ -11,7 +11,7 @@
   "dependencies": {
     "express": "^4.17.2",
     "express-request-id": "^2.0.1",
-    "heroku": "^7.30.1",
+    "heroku": "^7.59.2",
     "path": "^0.12.7",
     "stack": "^0.1.0"
   }
