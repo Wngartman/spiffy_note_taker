@@ -10,6 +10,9 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.2",
-    "express-request-id": "^2.0.1"
+    "express-request-id": "^2.0.1",
+    "heroku": "^7.30.1",
+    "path": "^0.12.7",
+    "stack": "^0.1.0"
   }
 }

@@ -56,7 +56,7 @@ router.route("/notes")
     })
 
 router.delete('/notes/:id', (req, res) => {
-    const id = req.params.id;
+    const noteId = req.params.id;
     // Respond to the DELETE request
     res.json(`Item ${noteId} has been deleted `);
 });
